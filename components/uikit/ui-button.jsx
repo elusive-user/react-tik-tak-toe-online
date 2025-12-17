@@ -1,12 +1,12 @@
 import clsx from "clsx";
 
 /**
- * @param ({
+ * @param {{
  *   children: any,
  *   className: string,
  *   size: "md" | "lg"
  *   variant: "primary" | "outline"
- * }) props
+ * }} props
  */
 export function UiButton({ children, className, size, variant }) {
   const buttonClassName = clsx(
